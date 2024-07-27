@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ca.zeta_innovations.fraps"
-    compileSdk = 34
+    compileSdk = 30
 
     defaultConfig {
         applicationId = "ca.zeta_innovations.fraps"
@@ -47,10 +47,19 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+    repositories {
+        mavenCentral()
+    }
+}
+repositories {
+    mavenCentral()
 }
 
 dependencies {
-
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
+    implementation("org.osmdroid:osmdroid-wms:6.1.6")
+    implementation("org.osmdroid:osmdroid-mapsforge:6.1.6")
+    implementation("org.osmdroid:osmdroid-geopackage:6.1.6")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
