@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ca.zeta_innovations.fraps"
-    compileSdk = 30
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ca.zeta_innovations.fraps"
@@ -47,12 +47,7 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
-    repositories {
-        mavenCentral()
-    }
-}
-repositories {
-    mavenCentral()
+
 }
 
 dependencies {
