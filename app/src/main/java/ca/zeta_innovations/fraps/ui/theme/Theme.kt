@@ -1,4 +1,4 @@
-package com.example.fraps.ui.theme
+package ca.zeta_innovations.fraps.ui.theme
 
 import android.app.Activity
 import android.os.Build

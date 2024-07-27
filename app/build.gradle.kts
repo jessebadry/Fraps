@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.fraps"
+    namespace = "ca.zeta_innovations.fraps"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.fraps"
-        minSdk = 34
+        applicationId = "ca.zeta_innovations.fraps"
+        minSdk = 30
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"

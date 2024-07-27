@@ -1,4 +1,4 @@
-package com.example.fraps
+package ca.zeta_innovations.fraps
 
 import org.junit.Test
 
